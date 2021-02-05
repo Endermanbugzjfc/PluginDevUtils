@@ -1,0 +1,14 @@
+name: ChunkSee
+author: Endermanbugzjfc
+api: 3.0.0
+version: 1.0.0
+main: Endermanbugzjfc\ChunkSee\ChunkSee
+
+commands:
+  chunkcoords:
+    description: See the coordinates of the chunk that you / a specified player are currently inside
+    usage: '/chunkcoords [Player name: string]'
+    aliases: [chunkxz, chunkpos]
+  gotochunk:
+    description: Go to a chunk by chunk coordinates
+    usage: '/gotochunk <Chunk X: int> <Chunk Z: int>'
