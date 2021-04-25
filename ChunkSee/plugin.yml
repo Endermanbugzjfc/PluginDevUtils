@@ -1,8 +1,9 @@
 name: ChunkSee
 author: Endermanbugzjfc
-api: 3.0.0
 version: 1.0.0
+api: 3.0.0
 main: Endermanbugzjfc\ChunkSee\ChunkSee
+website: https://github.com/Endermanbugzjfc/PluginDevUtils
 
 commands:
   chunkcoords:
