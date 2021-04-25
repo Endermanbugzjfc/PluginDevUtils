@@ -1,0 +1,29 @@
+name: CopyPasta
+author: Endermanbugzjfc
+version: 1.0.0
+api: 3.0.0
+main: Endermanbugzjfc\CopyPasta\CopyPasta
+website: https://github.com/Endermanbugzjfc/PluginDevUtils
+
+commands:
+  wget:
+    description: Grab resource from internet
+    usage: /wget <curl|stream> <url>
+    permission: copypasta.wget
+    aliases:
+     - copypasta
+     - get
+#
+
+permissions:
+  copypasta:
+    default: op
+    children:
+      copypasta.wget:
+        description: 'Permission to access the "/wget" command'
+        children:
+          copypasta.wget.curl:
+            description: Permission to run curl grab
+          copypasta.wget.stream:
+            description: Permission to run resource stream copy
+#
